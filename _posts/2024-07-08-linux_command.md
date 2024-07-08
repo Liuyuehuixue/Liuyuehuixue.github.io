@@ -2,8 +2,8 @@
 layout: post
 title: linux base commands
 date: 2024-07-08 22:28 +0800
-categories: [linux, command]
-tag: linux, command
+categories: [linux, linux_command]
+tag: linux, linux_command
 ---
 
 ### linux base command
