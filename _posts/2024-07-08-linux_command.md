@@ -29,4 +29,15 @@ journalctl -u myservice --since "2023-01-01 14:00:00" --until "2023-01-01 16:00:
 
 ```
 
+#### 查看某进程下的FD
+
+```linux
+ll /proc/pid/fd
+```
+
+#### st
+
+```linux
+sudo strace -p pid -tt -f -o ~/log/xxx.log
+```
 
