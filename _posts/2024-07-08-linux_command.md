@@ -35,9 +35,11 @@ journalctl -u myservice --since "2023-01-01 14:00:00" --until "2023-01-01 16:00:
 ll /proc/pid/fd
 ```
 
-#### st
+#### strace
 
 ```linux
 sudo strace -p pid -tt -f -o ~/log/xxx.log
 ```
+
+
 
